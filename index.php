@@ -67,9 +67,4 @@ switch ($pagina) {
             echo "Error al eliminar, intenta más tarde";
         }
         break;
-    case "creditos":
-        include_once __DIR__ . "/vistas/encabezado.php";
-        include_once __DIR__ . "/vistas/creditos.php";
-        include_once __DIR__ . "/vistas/pie.php";
-        break;
 }
